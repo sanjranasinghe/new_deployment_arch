@@ -14,4 +14,4 @@ apt-get install docker-ce docker-ce-cli containerd.io -y
 systemctl start docker
 systemctl enable docker
 cd /usr/local/src/
-git clone origin "$2"
+git clone origin "$1"
